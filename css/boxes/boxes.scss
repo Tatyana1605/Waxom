@@ -1,0 +1,35 @@
+.boxes {
+  padding: 45px 0;
+  background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  display: flex;
+  justify-content: space-around;
+  
+
+  &_left {
+
+
+    &_title {
+     
+      font-size: 28px;
+      font-family: "Raleway";
+      color: rgb(199, 178, 153);
+      line-height: 1.2;
+      text-align: left;
+        
+      
+    }
+
+    &_text {
+        
+      font-size: 18px;
+      font-family: "Montserrat";
+      color: rgb(97, 88, 85);
+      line-height: 1.2;
+      text-align: left;
+        
+      
+    }
+  }
+}

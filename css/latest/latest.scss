@@ -1,0 +1,61 @@
+@import "categories.scss";
+
+
+.latest {
+
+
+  &_center {
+    padding: 40px 300px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, minmax(340px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    
+    &_content {
+      
+      
+
+      &_text {
+        position: relative; 
+        background-color: rgb(251, 250, 248);
+        padding: 25px;
+        width: 370px;
+        height: 100px;
+        
+        
+         &::before {
+          content: ' ';
+          width: 30px;
+          height: 30px;
+          background-color: rgb(251, 250, 248);
+          position: absolute;
+          left: 20px;
+          top: -15px;
+          transform: rotate(45deg);
+         }
+        
+         & p {
+           
+          font-size: 14px;
+          font-family: "Montserrat";
+          color: rgb(209, 209, 209);
+          line-height: 1.429;
+          text-align: left;
+           
+           
+          
+         }
+
+         
+      }
+    }
+  }
+
+  &_bottom {
+    display: flex;
+     
+    justify-content: center;
+    margin-bottom: 80PX;
+  }
+}

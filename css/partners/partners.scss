@@ -1,0 +1,18 @@
+.partners {
+  background: url(../img/photo2.png) center center no-repeat;
+
+
+  &_center {
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+
+    & img {
+      padding-right: 60px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

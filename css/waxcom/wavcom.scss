@@ -1,0 +1,39 @@
+.waxvom {
+  background-color: #fbfaf8;
+   
+
+  
+
+ 
+
+  &_img  {
+    height: 485px;
+     
+    overflow: hidden;
+
+    & img {
+      position: relative;
+    }
+    
+
+    &_center {
+      right: 150px;
+      z-index: 100;
+       
+    }
+
+    &_left {
+       
+      top: 100px;
+      right: -300px;
+      z-index: 50;
+    }
+
+    &_right {
+       
+      top: -340px;
+      right: -955px;
+      z-index: 50;
+    }
+  }
+}

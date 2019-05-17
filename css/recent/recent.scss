@@ -1,0 +1,28 @@
+
+.recent  {
+  &_post {
+    display: flex;
+     
+    justify-content: center;
+  }
+
+  &_next {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+    & a:first-child {
+      padding-right: 10px;
+    }
+  }
+}
+
+
+.post {
+  width: 370px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

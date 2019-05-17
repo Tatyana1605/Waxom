@@ -1,0 +1,34 @@
+.services {
+  top: -100px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center; }
+  .services_content {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px; }
+    .services_content_title {
+      font-size: 22px;
+      font-family: "Raleway";
+      color: #555555;
+      font-weight: bold;
+      line-height: 1.2;
+      padding: 20px 0; }
+      .services_content_title.active {
+        color: #c7b299; }
+    .services_content_line {
+      background-color: #f1eee9;
+      width: 70px;
+      height: 3px; }
+      .services_content_line.active {
+        background-color: #998675; }
+    .services_content p {
+      text-align: center;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: #8c8c8c;
+      line-height: 1.714; }
+
+/*# sourceMappingURL=services.css.map */

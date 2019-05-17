@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1920px;
+}
+@import "nav/nav.scss";
+@import "slider/slider.scss";
+@import "services/services.scss";
+@import "button/btn.scss";
+@import "waxcom/wavcom.scss";
+@import "boxes/boxes.scss";
+@import "latest/latest.scss";
+@import "text/text.scss";
+@import "video/video.scss";
+@import "excellent/excellent.scss";
+@import "counters/counters.scss";
+@import "recent/recent.scss";
+@import "partners/partners.scss";

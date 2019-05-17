@@ -1,0 +1,20 @@
+.waxvom {
+  background-color: #fbfaf8; }
+  .waxvom_img {
+    height: 485px;
+    overflow: hidden; }
+    .waxvom_img img {
+      position: relative; }
+    .waxvom_img_center {
+      right: 150px;
+      z-index: 100; }
+    .waxvom_img_left {
+      top: 100px;
+      right: -300px;
+      z-index: 50; }
+    .waxvom_img_right {
+      top: -340px;
+      right: -955px;
+      z-index: 50; }
+
+/*# sourceMappingURL=wavcom.css.map */

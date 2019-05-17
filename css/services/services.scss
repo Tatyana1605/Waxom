@@ -1,0 +1,59 @@
+.services {
+  top: -100px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+
+  &_content {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+    &_title{
+       
+      font-size: 22px;
+      font-family: "Raleway";
+      color: rgb(85, 85, 85);
+      font-weight: bold;
+      line-height: 1.2;
+      padding: 20px 0;
+       
+      &.active {
+         
+        color: rgb(199, 178, 153);
+         
+        
+      }
+    }
+     
+
+    &_line {
+    
+      background-color: rgb(241, 238, 233);
+       
+      width: 70px;
+      height: 3px;
+      
+      &.active {
+         
+        background-color:#998675;
+         
+        
+      }
+      
+    }
+
+    & p {
+      text-align: center;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: rgb(140, 140, 140);
+      line-height: 1.714;
+       
+       
+      
+    }
+  }
+}
