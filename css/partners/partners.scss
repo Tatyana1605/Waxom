@@ -7,8 +7,19 @@
     display: flex;
     justify-content: center;
 
+    @media  (max-width: 992px) {
+      // flex-direction: column;
+      flex-flow: wrap;
+      padding: 50px;
+    }
+
     & img {
       padding-right: 60px;
+      @media  (max-width: 992px) {
+        &:nth-child(n+3) {
+          padding-top: 30px;
+        }
+      }
 
       &:last-child {
         padding-right: 0;

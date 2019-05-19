@@ -1,0 +1,19 @@
+.partners {
+  background: url(../img/photo2.png) center center no-repeat; }
+  .partners_center {
+    padding: 140px;
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 992px) {
+      .partners_center {
+        flex-flow: wrap;
+        padding: 50px; } }
+    .partners_center img {
+      padding-right: 60px; }
+      @media (max-width: 992px) {
+        .partners_center img:nth-child(n+3) {
+          padding-top: 30px; } }
+      .partners_center img:last-child {
+        padding-right: 0; }
+
+/*# sourceMappingURL=partners.css.map */

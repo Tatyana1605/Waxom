@@ -5,6 +5,11 @@
   background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
   display: flex;  
   justify-content: center;
+
+  @media  (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .counter {
@@ -12,6 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+  }
+  @media  (max-width: 992px) {
+    padding: 25px 0;
+  }
 
   &_number {
     padding: 20px 0;

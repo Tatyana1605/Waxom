@@ -1,6 +1,7 @@
 .navbar {
   z-index: 100;
-  color: white; }
+  color: white;
+  padding: 30px 15%; }
 
 .navbar-brand {
   color: white !important; }

@@ -1,39 +1,42 @@
 .waxvom {
   background-color: #fbfaf8;
    
-
+  &_img {
+    display: flex;
+    justify-content: center;
+  }
   
 
  
 
-  &_img  {
-    height: 485px;
+  // &_img  {
+  //   height: 485px;
      
-    overflow: hidden;
+  //   overflow: hidden;
 
-    & img {
-      position: relative;
-    }
+  //   & img {
+  //     position: relative;
+  //   }
     
 
-    &_center {
-      right: 150px;
-      z-index: 100;
+  //   &_center {
+  //     right: 150px;
+  //     z-index: 100;
        
-    }
+  //   }
 
-    &_left {
+  //   &_left {
        
-      top: 100px;
-      right: -300px;
-      z-index: 50;
-    }
+  //     top: 100px;
+  //     right: -300px;
+  //     z-index: 50;
+  //   }
 
-    &_right {
+  //   &_right {
        
-      top: -340px;
-      right: -955px;
-      z-index: 50;
-    }
-  }
+  //     top: -340px;
+  //     right: -955px;
+  //     z-index: 50;
+  //   }
+  // }
 }

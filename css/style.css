@@ -10,24 +10,14 @@
 
 .navbar {
   z-index: 100;
-  color: white; }
+  color: white;
+  padding: 30px 15%; }
 
 .navbar-brand {
   color: white !important; }
 
 .nav-link {
   color: white !important; }
-
-.slider {
-  position: relative;
-  color: white;
-  top: -100px;
-  bottom: -100px;
-  height: 1024px;
-  background: url("../img/photo.png") center center no-repeat/cover; }
-
-.carousel {
-  height: 100vh; }
 
 .carousel-item {
   display: flex;
@@ -45,10 +35,13 @@
     height: 100vh; }
 
 .services {
-  top: -100px;
-  padding-bottom: 80px;
+  padding: 80px 0;
   display: flex;
   justify-content: center; }
+  @media (max-width: 992px) {
+    .services {
+      flex-direction: column;
+      align-items: center; } }
   .services_content {
     width: 280px;
     display: flex;
@@ -90,21 +83,8 @@
 .waxvom {
   background-color: #fbfaf8; }
   .waxvom_img {
-    height: 485px;
-    overflow: hidden; }
-    .waxvom_img img {
-      position: relative; }
-    .waxvom_img_center {
-      right: 150px;
-      z-index: 100; }
-    .waxvom_img_left {
-      top: 100px;
-      right: -300px;
-      z-index: 50; }
-    .waxvom_img_right {
-      top: -340px;
-      right: -955px;
-      z-index: 50; }
+    display: flex;
+    justify-content: center; }
 
 .boxes {
   padding: 45px 0;
@@ -154,33 +134,33 @@
       text-decoration: none; }
 
 .latest_center {
-  padding: 40px 300px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  grid-template-rows: repeat(2, minmax(340px, 1fr));
-  grid-gap: 10px;
-  justify-content: center; }
-  .latest_center_content_text {
-    position: relative;
-    background-color: #fbfaf8;
-    padding: 25px;
-    width: 370px;
-    height: 100px; }
-    .latest_center_content_text::before {
-      content: ' ';
-      width: 30px;
-      height: 30px;
+  padding: 40px 15%; }
+  @media (max-width: 1199px) {
+    .latest_center {
+      padding: 0 5%; } }
+  .latest_center_content {
+    padding-bottom: 15px; }
+    .latest_center_content_text {
+      position: relative;
       background-color: #fbfaf8;
-      position: absolute;
-      left: 20px;
-      top: -15px;
-      transform: rotate(45deg); }
-    .latest_center_content_text p {
-      font-size: 14px;
-      font-family: "Montserrat";
-      color: #d1d1d1;
-      line-height: 1.429;
-      text-align: left; }
+      padding: 25px;
+      width: 370px;
+      height: 100px; }
+      .latest_center_content_text::before {
+        content: ' ';
+        width: 30px;
+        height: 30px;
+        background-color: #fbfaf8;
+        position: absolute;
+        left: 20px;
+        top: -15px;
+        transform: rotate(45deg); }
+      .latest_center_content_text p {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #d1d1d1;
+        line-height: 1.429;
+        text-align: left; }
 .latest_bottom {
   display: flex;
   justify-content: center;
@@ -217,6 +197,10 @@ h5 {
 .excellent {
   display: flex;
   padding-top: 80px; }
+  @media (max-width: 992px) {
+    .excellent {
+      flex-direction: column;
+      align-items: center; } }
   .excellent_left {
     flex: 1;
     display: flex;
@@ -244,12 +228,22 @@ h5 {
   background-image: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
   display: flex;
   justify-content: center; }
+  @media (max-width: 992px) {
+    .counters {
+      flex-direction: column;
+      align-items: center; } }
 
 .counter {
   padding: 0 25px;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .counter:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2); }
+  @media (max-width: 992px) {
+    .counter {
+      padding: 25px 0; } }
   .counter_number {
     padding: 20px 0;
     font-size: 48px;
@@ -272,6 +266,10 @@ h5 {
 .recent_post {
   display: flex;
   justify-content: center; }
+  @media (max-width: 1199px) {
+    .recent_post {
+      flex-direction: column;
+      align-items: center; } }
 .recent_next {
   padding: 50px 0;
   display: flex;
@@ -291,9 +289,21 @@ h5 {
     padding: 140px;
     display: flex;
     justify-content: center; }
+    @media (max-width: 992px) {
+      .partners_center {
+        flex-flow: wrap;
+        padding: 50px; } }
     .partners_center img {
       padding-right: 60px; }
+      @media (max-width: 992px) {
+        .partners_center img:nth-child(n+3) {
+          padding-top: 30px; } }
       .partners_center img:last-child {
         padding-right: 0; }
+
+.header {
+  height: 100vh;
+  color: white;
+  background: url("../img/photo.png") center center no-repeat/cover; }
 
 /*# sourceMappingURL=style.css.map */

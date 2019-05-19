@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,OAAQ;EACL,OAAO,EAAE,GAAG;EACb,KAAK,EAAE,KAAK;;AAGd,aAAc;EACZ,KAAK,EAAE,gBAAe;;AAGxB,SAAU;EACR,KAAK,EAAE,gBAAe",
+"mappings": "AAAA,OAAQ;EACN,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,QAAQ;;AAGnB,aAAc;EACZ,KAAK,EAAE,gBAAe;;AAGxB,SAAU;EACR,KAAK,EAAE,gBAAe",
 "sources": ["nav.scss"],
 "names": [],
 "file": "nav.css"

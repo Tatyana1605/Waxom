@@ -1,14 +1,3 @@
-.slider {
-  position: relative;
-  color: white;
-  top: -100px;
-  bottom: -100px;
-  height: 1024px;
-  background: url("../img/photo.png") center center no-repeat/cover; }
-
-.carousel {
-  height: 100vh; }
-
 .carousel-item {
   display: flex;
   justify-content: center;

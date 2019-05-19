@@ -1,0 +1,43 @@
+.counters {
+  padding: 60px 0;
+  background-image: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background-image: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background-image: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  display: flex;
+  justify-content: center; }
+  @media (max-width: 992px) {
+    .counters {
+      flex-direction: column;
+      align-items: center; } }
+
+.counter {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .counter:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2); }
+  @media (max-width: 992px) {
+    .counter {
+      padding: 25px 0; } }
+  .counter_number {
+    padding: 20px 0;
+    font-size: 48px;
+    font-family: "Montserrat";
+    color: white;
+    line-height: 0.75; }
+  .counter_title {
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #c7b299;
+    text-transform: uppercase;
+    line-height: 1.429; }
+  .counter_line {
+    background-color: white;
+    top: 5047px;
+    width: 30px;
+    height: 2px; }
+
+/*# sourceMappingURL=counters.css.map */

@@ -1,0 +1,28 @@
+.excellent {
+  display: flex;
+  padding-top: 80px; }
+  @media (max-width: 992px) {
+    .excellent {
+      flex-direction: column;
+      align-items: center; } }
+  .excellent_left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; }
+  .excellent_right {
+    flex: 1.5;
+    width: 670px; }
+    .excellent_right h3, .excellent_right p {
+      text-align: left; }
+    .excellent_right_list {
+      padding-left: 80px; }
+    .excellent_right_item {
+      list-style: none;
+      background: url(../img/li.png) no-repeat 0 5px;
+      padding-left: 40px;
+      font-size: 16px;
+      font-family: "Montserrat";
+      color: #8c8c8c;
+      line-height: 2; }
+
+/*# sourceMappingURL=excellent.css.map */
